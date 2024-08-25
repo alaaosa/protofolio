@@ -124,7 +124,7 @@ section{
 #character{
     /* display: none; */
     position: absolute;
-    top:1.2em;
+    top:2.2em;
     left: -1em;
     font-size: 3em;
     font-weight: 900;
@@ -186,7 +186,7 @@ justify-content: center;
 
     .main{
         padding: 100px 50px;
-        margin: 60px 0;
+        /* margin: 60px 0; */
     }
 
     .navigation{
@@ -208,12 +208,23 @@ justify-content: center;
 
     }
 .main h2{
-    margin-top: 2em;
-    font-size: .8em;
+    /* margin-top: 2em; */
+    font-size: .6em;
     font-weight: 400;
+    margin: -9em 0;
 }
 .main h3{
-    font-size: .8em;
+    font-size: .6em;
     font-weight: 400;
+    margin: 12em 0;
 }
+
+.social-icons{
+    margin: -2em 0;
+}
+
+/* .main h2, .main h3{
+    position: absolute;
+    top:1em
+} */
 }
